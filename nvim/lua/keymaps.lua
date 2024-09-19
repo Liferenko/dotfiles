@@ -18,7 +18,6 @@ vim.keymap.set('n', '<leader>db', ':DBUIToggle<CR>')
 -- Files
 vim.keymap.set('n', '<C-p>', ':Telescope find_files<CR>')
 vim.keymap.set('n', '<leader>f', ':Buffers<CR>')
-vim.keymap.set('n', '<leader>gg', ':LazyGit<CR>', { silent = true })
 
 -- Documentation
 vim.keymap.set('n', '<leader>z', '<Plug>DashSearch')
