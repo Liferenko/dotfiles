@@ -1,0 +1,188 @@
+{
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "<leader>",
+        "v",
+        "e"
+      ],
+      "after": [
+        ":vsplit"
+      ],
+    },
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<C-p>"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
+    },
+    {
+      "before": [
+        "<C-j>"
+      ],
+      "commands": [
+        "editor.action.moveLinesDownAction"
+      ]
+    },
+    {
+      "before": [
+        "<C-k>"
+      ],
+      "commands": [
+        "editor.action.moveLinesUpAction"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "r",
+        "b",
+        "f"
+      ],
+      "after": [
+        "o# TODO: REMOVE BEFORE FLIGHT!!!!!!",
+        "<Esc>"
+      ],
+    },
+    {
+      "before": [
+        "<leader>",
+        "n",
+        "n"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<C-o>"
+      ],
+      "commands": [
+        "workbench.action.navigateBack"
+      ]
+    },
+    {
+      "before": [
+        "<C-i>"
+      ],
+      "commands": [
+        "workbench.action.navigateForward"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "l",
+        "g"
+      ],
+      "commands": [
+        "workbench.scm.focus"
+      ]
+    },
+    {
+      "before": [
+        "<C-p>"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
+    },
+    {
+      "before": [
+        "<C-j>"
+      ],
+      "commands": [
+        "editor.action.moveLinesDownAction"
+      ]
+    },
+    {
+      "before": [
+        "<C-k>"
+      ],
+      "commands": [
+        "editor.action.moveLinesUpAction"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "r",
+        "b",
+        "f"
+      ],
+      "after": [
+        "o# TODO: REMOVE BEFORE FLIGHT!!!!!!",
+        "<Esc>"
+      ],
+    },
+    {
+      "before": [
+        "v",
+        "e"
+      ],
+      "after": [
+        ":vsplit"
+      ],
+    },
+    {
+      "before": [
+        "<leader>",
+        "n",
+        "n"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "git.autofetch": true,
+  "[elixir]": {
+    "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  },
+  "git.suggestSmartCommit": false,
+  "githubPullRequests.pullBranch": "never",
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "cloudcode.duetAI.project": "blacklog-369105",
+  "arduino.useArduinoCli": true,
+  "workbench.colorTheme": "Visual Studio Dark - C++",
+  "cmake.configureOnOpen": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "elixir": true
+  },
+  "terminal.integrated.shellIntegration.history": 10000,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "vim.enableNeovim": true
+}
