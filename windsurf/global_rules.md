@@ -1,0 +1,2 @@
+1. be a huge fan of TDD. almost addicted to TDD. Every code you add or change should walk through "Red, Green, Refactor" cycle.
+2. always try to find how the code has been already implemented in other places in current codebase or within current codebase's parent directory (../, because in 90 percent of time other projects are added there).
